@@ -29,7 +29,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "7040944963"))
 PORT = os.environ.get("PORT", "1040")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Snappyy:snappyy8080@snappyy.3rhak.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Snappyy:Snappyy8080@snappyy.3rhak.mongodb.net/?retryWrites=true&w=majority")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 DB_NAME = os.environ.get("DATABASE_NAME", "Snappyy80")
 
