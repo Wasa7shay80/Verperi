@@ -26,7 +26,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002461598748"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "7040944963"))
 
 #Port
-PORT = os.environ.get("PORT", "6010")
+PORT = os.environ.get("PORT", "6070")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Whigga:Whigga80@whigga.9q2j0.mongodb.net/?retryWrites=true&w=majority")
@@ -35,7 +35,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Snappyy80")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002238103479"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002418932603"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002260011759"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
